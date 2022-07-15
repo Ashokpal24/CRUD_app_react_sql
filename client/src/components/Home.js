@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Viewdata from './Viewdata';
 function Home(){
     return(

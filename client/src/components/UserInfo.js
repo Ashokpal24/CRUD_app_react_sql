@@ -14,6 +14,7 @@ function UserInfo() {
             position: position, 
             wage: wage}).then(()=>{console.log("success")});
     };
+    
     return (
         <div className='container mt-5'>
             <form>

@@ -6,6 +6,7 @@ import "../node_modules/bootstrap/js/dist/collapse.js";
 import UserInfo from './components/UserInfo'
 import Navbar from './components/Navbar';
 import Home from './components/Home'
+import Edit from './components/Edit';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/Userinfo' element={<UserInfo/>} />
+          <Route path='/Edit' element={<Edit/>}/>
         </Routes>
       </Router>
     </div>
